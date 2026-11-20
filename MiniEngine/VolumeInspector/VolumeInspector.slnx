@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Profile" />
+    <BuildType Name="Release" />
+    <Platform Name="Windows" />
+  </Configurations>
+  <Project Path="../Core/Core.vcxproj" Id="86a58508-0d6a-4786-a32f-01a301fdc6f3">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="VolumeInspector.vcxproj" Id="b025841b-3da5-491b-b13b-90648e7f225c">
+    <Platform Project="x64" />
+  </Project>
+</Solution>
