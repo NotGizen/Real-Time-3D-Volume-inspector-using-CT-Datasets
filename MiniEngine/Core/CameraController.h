@@ -56,6 +56,7 @@ public:
 
     void SetHeadingPitchAndPosition(float heading, float pitch, const Vector3& position);
 
+    void SetSpeed(float speed);
 private:
 
     Vector3 m_WorldUp;

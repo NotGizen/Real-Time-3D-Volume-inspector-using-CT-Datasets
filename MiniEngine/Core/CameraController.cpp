@@ -137,6 +137,12 @@ void FlyingFPSCamera::SetHeadingPitchAndPosition(float heading, float pitch, con
     m_TargetCamera.Update();
 }
 
+void FlyingFPSCamera::SetSpeed(float speed)
+{
+	m_MoveSpeed = speed;
+	m_StrafeSpeed = speed;
+}
+
 
 void CameraController::ApplyMomentum( float& oldValue, float& newValue, float deltaTime )
 {
